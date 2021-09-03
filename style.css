@@ -5,7 +5,7 @@ body {
 }
 .h1 {
     font-weight: 900;
-    font-size: 22px;
+    font-size: 30px;
     color: hsl(223, 47%, 23%);
 }
 .paragraph {
@@ -23,7 +23,7 @@ body {
     .principal {
         margin: 20px auto;
         width: 30vw;
-        height: 70vh;
+        height: auto;
         border: 0px solid;
         background: rgb(255, 255, 255);
         border-radius: 15px;
@@ -34,6 +34,7 @@ body {
     }
     .descrip {
         width: 70%;
+        margin-bottom: 1rem;
     }
     .pay {
         display: flex;
@@ -85,7 +86,6 @@ body {
         .options {
             display: flex;
             align-items: center;
-            margin-top: 2rem ;
             flex-flow: column wrap;
             width: 100%;
         }
@@ -96,7 +96,7 @@ body {
             border-radius: 15px;
             font-size: 14px;
             background: hsl(245, 75%, 52%);
-            margin-bottom: 1rem;
+            margin: 2rem 0 0 0;
             padding: 0.8rem;
             font-weight: 700;
             box-shadow: 
@@ -113,6 +113,7 @@ body {
             text-decoration: none;
             font-weight: 700;
             font-size: 14px;
+            margin: 2rem 0px;
         }
         .cancel:hover {
             color: hsl(223, 47%, 23%);
